@@ -51,7 +51,7 @@ app.put('/addOneLike', (request, response) => {
         upsert: true
     })
     .then(result => {
-        console.log(request)
+        
         console.log('Added One Like')
         response.json('Like Added')
     })
